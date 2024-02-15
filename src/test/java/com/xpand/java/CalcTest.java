@@ -62,7 +62,7 @@ public class CalcTest {
     @Test
     public void CanDoAddPlusDivide()
     {
-        assertThat(Calculator.Divide(Calculator.Add(1, 0), 1), is(1));
+        assertThat(Calculator.Divide(Calculator.Add(1, 0), 0), is(1));
     }
 
 
