@@ -10,7 +10,7 @@ public static int Square(int num)
 // Add two integers and returns the sum
 public static int Add(int num1, int num2 )
 {
-    return num1 + num2;
+    return num1 - num2;
 }
 // Add two integers and returns the sum
 public static double Add(double num1, double num2 )
